@@ -1,52 +1,35 @@
 body {
     background-image: url("../images/whirlpool.png");
     margin: 0;
-    
 }
 
-.box-set {
+header {
     background-color: white;
-    margin: -134px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #d4d4d4;
-
-}
-
-.box{
-	width:220px;
-    height:75px;
-    position: relative;
-    
-}
+    padding: 30px;
+    width: 100%;
+    border-bottom: 1px solid grey;
  
-.teal{
-    background: teal;
-    top: 112px;
-    left: 316px;
 }
 
-.white {
-    background: white;
-    width: 300px;
-    top: 20px;
-    left: 900px;
-}
-
-h1 {
-    color: white;
+.pageheader {
+    position: relative;
+    top: -30px;
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
-   
-    
+	background-color: teal;
+	color: white;
+	font-size: 40px;
+	width: 20%;
+    height: 60px;
+	float: left;
+	margin-left: 150px;
 }
 
-h2 {
-    color: grey;
-    text-align: center;
-    padding: 25px;
-    font-size: 20px;
-    
+.links {
+    float: left;
+    position: relative;
+    left: 550px;
+    bottom: 10px;
 }
+
+
 
