@@ -1,3 +1,9 @@
+.container {
+    height: 700px;
+    width: 1356px;
+}
+
+
 body {
     background-image: url("../images/whirlpool.png");
     margin: 0;
@@ -5,31 +11,186 @@ body {
 
 header {
     background-color: white;
-    padding: 30px;
+    padding: 42px;
     width: 100%;
-    border-bottom: 1px solid grey;
- 
+    border-bottom: 1.5px solid #DCDCDC;
+
 }
 
 .pageheader {
     position: relative;
-    top: -30px;
+    top: -43px;
     text-align: center;
-	background-color: teal;
+	background-color: #85bcc4;
 	color: white;
 	font-size: 40px;
-	width: 20%;
-    height: 60px;
+	width: 21%;
+    height: 70px;
 	float: left;
-	margin-left: 150px;
+    margin-left: 40px;
+    padding-top: 15px;
+    
 }
 
 .links {
     float: left;
     position: relative;
-    left: 550px;
+    left: 300px;
     bottom: 10px;
 }
 
+#index {
+    margin-right: 20px;
+    word-spacing: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
 
+#contact{
+    margin-right: 20px;
+    word-spacing: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
 
+#portfolio {
+    margin-right: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.aboutSection {
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 500px;
+    width: 850px;
+    border: 1px solid #DCDCDC;
+    margin-bottom: 15px;
+   
+}
+
+h1 {
+    clear: both;
+    overflow: auto;
+    color: #75abb3;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 40px;
+    
+    
+}
+
+h2 {
+    background-color: #DCDCDC;
+    height: 3px;
+    margin-left: 25px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    
+}
+
+#profile_pic {
+   height: 184px;
+   width: 158px;
+   margin-left: 20px;
+   padding-right: 20px;
+   float: left;
+}
+
+#blurb {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 75px;
+   
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+    background-color: grey;
+    padding: 30px;
+    width: 102%;
+    border-top: 7px solid #85bcc4;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+#contact-header {
+    color: #75abb3;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 5px; /* Some padding */  
+    font-size: 10px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0px; /* Add a top margin */
+    margin-bottom: -5px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #85bcc4;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #85bcc4;
+}
+
+#contact-box {
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+h3 {
+    background-color: #DCDCDC;
+    height: 3px;
+    margin-left: 25px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+
+label {
+    font-size: 15px;
+    color: grey;
+}
+
+form {
+    height: 500px;
+    width: 740px;
+    margin-left: 25px;
+    
+}
+
+#image-one, #image-two, #image-three, #image-four, #image-five {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    float: left;
+}
+
+.uno {
+    position: relative;
+    float: left;
+    position: 20px
+}
