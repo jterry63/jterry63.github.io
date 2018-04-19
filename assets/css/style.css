@@ -189,8 +189,50 @@ form {
     float: left;
 }
 
-.uno {
+
+.i-one {
     position: relative;
-    float: left;
-    position: 20px
+    text-align: center;
+    color: white;
+   
+}
+
+.hangman {
+    position: absolute;
+    bottom: -142px;
+    left: 20px;
+    background-color: #75abb3;
+    width: 150px;
+}
+
+.rpg {
+    position: absolute;
+    bottom: -142px;
+    left: 210px;
+    background-color: #75abb3;
+    width: 150px;
+}
+
+.trivia {
+    position: absolute;
+    bottom: -142px;
+    left: 400px;
+    background-color: #75abb3;
+    width: 150px;
+}
+
+.info {
+    position: absolute;
+    bottom: -330px;
+    left: 20px;
+    background-color: #75abb3;
+    width: 150px;
+}
+
+.rps {
+    position: absolute;
+    bottom: -330px;
+    left: 210px;
+    background-color: #75abb3;
+    width: 150px;
 }
